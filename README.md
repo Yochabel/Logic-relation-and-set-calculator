@@ -35,5 +35,6 @@ The calculator does the following:
 4) The result of the selected operation is printed for cases 1 to 15, or true or false for options 16 and 17
 
 -RATIO CALCULATOR
+
 In a menu, the user decides if he wants to work with a set that he introduces himself or if it is generated randomly. This set is composed of 1 to 20 natural numbers (in a range from 1 to 100). Then another menu must be displayed in which one of at least 5 relationships can be chosen.
 The calculator will generate all the ordered pairs that satisfy the relation from the Cartesian product of the sets and will show them. It will also determine if the relation is reflexive, symmetric and/or transitive and prints it on the screen.
