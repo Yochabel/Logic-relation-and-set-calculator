@@ -1,2 +1,39 @@
 # Logic-relation-and-set-calculator
-Este programa esta conformado por 3 calculadoras, las cuales son: -Calculadora logica Tienes 3 proposiciones  primitivas (p,q,r) y puedes usar de 1 a 3 proposiciones.  La calculadora hace siguiente: 1) Imprimir la tabla de verdad de una proposición compuesta con todas las columnas necesarias de manera que en cada columna solo se efectúe una operación, hasta llegar a proposición compuesta que introduzca el usuario. 2) Verificar si 2 proposiciones compuestas son lógicamente equivalentes 3) Determinar si una proposición es tautología o contradicción -Calculadora de conjuntos Esta calculadora trabajará con 2 conjuntos de números enteros  con cardinalidad de 0 a 20, con elementos en el rango 1 a 100. La calculadora hace lo siguiente: 1) Se pregunta al usuario si quiere introducir los elementos manualmente o si prefiere que los conjuntos se generen de manera aleatoria. 2) Se pregunta por el tamaño de los conjuntos. Se generan o introducen, según el caso. Debe ser claro cómo se introducen los elementos (poner instrucciones). 4) Se despliega un menu de operaciones posibles que son: 1. Intersección A∩B 2. Unión A∪B 3. Diferencia A-B 4. Diferencia B-A 5. Diferencia simétrica 6. Complemento de A 7. Complemento de B 8. Producto cartesiano AxB 9. Producto cartesiano BxA 10. Producto cartesiano AxA 11. Producto cartesiano BxB 12. Conjunto potencia A 13. Conjunto potencia B 14. Cardinalidad de A 15. Cardinalidad de B 16. Contención A⊆B (Verdadero o falso) 17. Contención B⊆A (Verdadero o falso) 18. Salir 5)  Se imprime del resultado de la operación seleccionada para los casos 1 a 15, or verdadero o falso para las opciones 16 y 17 -Calculadora de relaciones En un menú, el usuario decide si quiere trabaja con un conjunto que él mismo introduce o si se genera de forma aleatoria. Este conjunto está compuesto de 1 a 20 números naturales (en un rango de 1 a 100). Luego se debe desplegar otro menú en el que se pueda elegir una de al menos 5 relaciones. La calculadora generará todos los pares ordenados que cumplan la relación a partir del producto cartesiano de los conjuntos  y los mostrará. Además determinará si la relación es reflexiva, simétrica y/o transitiva y lo imprime en pantalla.
+This program is made up of 3 calculators, which are:
+
+-LOGIC CALCULATOR
+You have 3 primitive statements (p,q,r) and you can use from 1 to 3 statements.
+The calculator does the following:
+1) Print the truth table of a compound proposition with all the necessary columns so that only one operation is performed on each column, until reaching the compound proposition entered by the user.
+2) Check if 2 compound propositions are logically equivalent
+3) Determine if a proposition is a tautology or a contradiction
+
+-SET CALCULATOR
+This calculator will work with 2 sets of integers with cardinality from 0 to 20, with elements in the range 1 to 100.
+The calculator does the following:
+1) The user is asked if he wants to enter the elements manually or if he prefers that the sets be generated randomly.
+2) Ask about the size of the sets. They are generated or introduced, depending on the case. It must be clear how the elements (put instructions).
+3) A menu of possible operations is displayed, which are:
+1. Intercept A∩B
+2. Junction A∪B
+3. Difference A-B
+4. Difference B-A
+5. Symmetric difference
+6. A's Complement
+7. Complement of B
+8. Cartesian product AxB
+9. Cartesian product BxA
+10. Cartesian product AxA
+11. Cartesian product BxB
+12. Power set A
+13. Power set B
+14. Cardinality of A
+15. Cardinality of B
+16. Containment A⊆B (True or False)
+17. Containment B⊆A (True or False)
+18. Exit
+4) The result of the selected operation is printed for cases 1 to 15, or true or false for options 16 and 17
+
+-RATIO CALCULATOR
+In a menu, the user decides if he wants to work with a set that he introduces himself or if it is generated randomly. This set is composed of 1 to 20 natural numbers (in a range from 1 to 100). Then another menu must be displayed in which one of at least 5 relationships can be chosen.
+The calculator will generate all the ordered pairs that satisfy the relation from the Cartesian product of the sets and will show them. It will also determine if the relation is reflexive, symmetric and/or transitive and prints it on the screen.
